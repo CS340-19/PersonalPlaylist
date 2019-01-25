@@ -18,9 +18,13 @@ Technology:
   -Tools: Technology used to build what you deliver
 
 Team:
-  -Skills
-  -Roles
+  -Skills? Has anyone on the team created or used the tools needed for the project already?
+  -Roles? What are the roles of each team member? Will the roles change over the course of the semester?
 
 Project Management:
+  -Schedule
+  -Constraints
+  -Resources
+  -Descoping
 
 
