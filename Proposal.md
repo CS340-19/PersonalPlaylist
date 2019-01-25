@@ -12,6 +12,9 @@ Personal Playlist is web-based python algorithm that uses Spotify's API to gener
   -What are the backgrounds of our team members?
 
 Customer Value:
+  -Customer Need
+  -Proposed Solution
+  -Measures of Success
 
 Technology:
   -System: Technology you deliver
