@@ -29,8 +29,23 @@ Our main goal of this project it to make the process of creating a playlist on S
 
 
 Technology:
-  -System: Technology you deliver
-  -Tools: Technology used to build what you deliver
+
+1) What will our software do?
+
+- You can connect to your Spotify profile through the app. This will allow the user to manipulate their profile and create/edit playlists they own. 
+
+- You can create playlists based on attributes. These attribute will be assigned to each song and will be used to sort and search for songs as well as find connections to other songs through related attributes. Once the songs are found, a playlist will be created reflecting the attributes you have chosen. 
+
+- You can create playlists based on searching artists and the software will find music that the artist made as well as music made by related or similar artists. You can then change the attributes of the whole playlist with in the scope of the artists' genre. 
+
+- You can sort playlists that are being created based on any attributes you would like to be at the top of the playlist. 
+
+2) What are the main components of the system?
+
+- Our experience will be discussed more later in the proposal but I think it is important to highlight that we have never developed a web application so much of this is subject to change during our first sprint.
+
+- We plan on having a client and server component to our application. The client side will be implemented using Javascript and CSS. We plan on using these languages and few API's to create a seemless user experience. It is important for our team to make this process quick and easy. The server side will mainly be written in Python but I can see us possibly using C++ because we are all very familiar with the language. The server side of this app will be used to connect users to their Spotify account and process search results and changes in attribute sliders. The back end will be doing all of the algorithmic processes to create the list of songs as well as implementing the changes with in the user's Spotify profile such as adding a playlist.
+
 
 Team:
   -Skills? Has anyone on the team created or used the tools needed for the project already?
