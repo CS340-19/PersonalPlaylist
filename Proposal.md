@@ -71,16 +71,22 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 - We have looked into using the AngularJS framework developed by Google and we may use this with tools such as Sublime Text and Webstorm. We can then use a mixture Jasmine and Karma for testing the code.
 
 <h1>Team:</h1><br>
-  <h2>Skills? Has anyone on the team created or used the tools needed for the project already?</h2>
-        Tucker: C++/Python/Javascript
-        Lane: C/C++/Python/Javascript/HTML/CSS
-  <h2>Roles? What are the roles of each team member? Will the roles change over the course of the semester?</h2>
-        Lane: Programmer
+<h2>Skills? Has anyone on the team created or used the tools needed for the project already?</h2>
+<ul>
+  <li>Tucker: C++/Python/Javascript</li>
+  <li>Lane: C/C++/Python/Javascript/HTML/CSS</li>
+</ul>
+<h2>Roles? What are the roles of each team member? Will the roles change over the course of the semester?</h2>
+<ul>  
+  <li>Lane: Programmer</li>
+<ul>
         
 <h1>Project Management:</h1> <br>
-  -Schedule
-  -Constraints
-  -Resources
-  -Descoping
+<ul>
+  <li>Schedule: </li>
+  <li>Constraints: </li>
+  <li>Resources: </li>
+  <li>Descoping: </li>
+<ul>
 
 
