@@ -79,7 +79,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 <h2>Roles? What are the roles of each team member? Will the roles change over the course of the semester?</h2>
 <ul>  
   <li>Lane: Programmer</li>
-<ul>
+</ul>
         
 <h1>Project Management:</h1> 
 <ul>
