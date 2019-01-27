@@ -1,7 +1,7 @@
-<h2>Custom Concert</h2>
-Team Name: Personal Playlist
-Github Team Name: Personal Playlist
-Team Members: Tucker Wheaton, Mathew Butera, Lane Henslee, Chris Mobley
+<h1>Custom Concert</h1>
+Team Name: Personal Playlist<br>
+Github Team Name: Personal Playlist<br>
+Team Members: Tucker Wheaton, Mathew Butera, Lane Henslee, Chris Mobley<br>
 
 <h1>Introduction:</h1>
 
