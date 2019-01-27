@@ -81,7 +81,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
   <li>Lane: Programmer</li>
 <ul>
         
-<h1>Project Management:</h1> <br>
+<h1>Project Management:</h1> 
 <ul>
   <li>Schedule: </li>
   <li>Constraints: </li>
