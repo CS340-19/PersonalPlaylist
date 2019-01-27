@@ -31,7 +31,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 </ul>
  * You can head over to https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/ for more information on the tags we are using.<br>
 <br>
-Customer Value:
+<h1>Customer Value:</h1>
 
 1) Customer Need 
 
@@ -50,7 +50,7 @@ Customer Value:
 - Our main goal of this project is to make the process of creating a playlist on Spotify quick with a simple and natural experience. If customers can create playlists that successfully reflect the the playlist they wanted in a matter of seconds we have successfully completed our main goal of this project.
 
 
-Technology:
+<h1>Technology:</h1>
 
 1) What will our software do?
 
@@ -70,14 +70,14 @@ Technology:
 
 - We have looked into using the AngularJS framework developed by Google and we may use this with tools such as Sublime Text and Webstorm. We can then use a mixture Jasmine and Karma for testing the code.
 
-Team:
+<h1>Team:</h1><br>
   -Skills? Has anyone on the team created or used the tools needed for the project already?
         Tucker: C++/Python/Javascript
         Lane: C/C++/Python/Javascript/HTML/CSS
   -Roles? What are the roles of each team member? Will the roles change over the course of the semester?
         Lane: Programmer
         
-Project Management:
+<h1>Project Management:</h1> <br>
   -Schedule
   -Constraints
   -Resources
