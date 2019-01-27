@@ -5,11 +5,30 @@ Team Members: Tucker Wheaton, Mathew Butera, Lane Henslee, Chris Mobley
 
 Introduction:
 
-Personal Playlist is web-based python algorithm that uses Spotify's API to generate a curated playlist based on your listening history or inputted artists and songs. The website will allow users to adjust the search parameters based on what they're looking for, and the algorithm will learn and improve from user feedback.
+Personal Playlist presents Custom Concert, which is a web-based python algorithm that uses Spotify's API to generate a curated playlist based on your listening history or inputted artists and songs. The website will allow users to adjust the search parameters based on what they're looking for, and the algorithm will learn and improve from user feedback.
 
   -Motivation behind idea?
+Our members in Personal Playlist have come together to eliminate the long process of making playlists. Custom Concert will help people in several aspects. Have you ever been invited to a concert where you don't know many of the songs? We want to help people familiarize themselves with new music based on what they listen too. Custom Concert will help prepare and excite people for concerts to new artists. We are going to add new music to personal playlists while helping new artists grow their group of listeners on spotify. A second feature in Custom Concert is the ability to generate a playlist with advanced settings that match song tags that the Spotify API provides. Lastly, we will allow the user to sort music by these same tags after the playlist is generated. We want to create a nice graphical user interface to let users have more power over their playlists than they ever have. What if you could sort and/or screen your playlist by song popularity or the likelyhood someone will dance to your music?
+
   -What other markets is our product similar too? Do we have a novel ideas?
-  -What are the backgrounds of our team members?
+We have researched the spotify community for similar programs. One that we want to model is called Dubolt. They have a simple interface that allows you to choose up to 5 artists and how many songs you want in the playlist. It generates a playlist with similar tags to your favorite music. We want to implement this feature and allow users to screen music with the Spotify API tags as well. This will curate the user's playlist to have more popular songs or more underground songs, more or less likelyhood to dance to the music, faster or slower tempo, and more. We want users to have full control of their playlists without the effort it takes to manually build a playlist.
+
+  -What are these tags we keep talking about?
+We will be using Spotify's API to implement these unique features. These tags/features include:
+  -Duration: How long is the song?
+  -Key: What is the most proficient key/pitch of the song?
+  -Mode: Is the song in the major scale or the minor scale?
+  -Time Signature/Meter: How many beats are in each bar or measure?
+  -Acousticness: A scale from 0 to 1 of how acoustic the song is.
+  -Danceability: A scale from 0 to 1 of how likely people are to dance to the song.
+  -Energy: A scale from 0 to 1 of how much noise and speed is in the song (i.e. death metal has more energy than slow country)
+  -Instrumentalness: A scale from 0 to 1 predicting the ratio of instruments to vocals.
+  -Liveness: A scale from 0 to 1 predicting the likelyhood that the song was recorded live (.8 or higher means the song was
+   more than likely performed live)
+  -Speechiness: A scale from 0 to 1 that detects the presence of spoken words.
+  -Valence: A scale from 0 to 1 that detects the mood of the song (0 is sad/angry and 1 is happy/cheerful)
+  -Tempo: The overal tempo of the song in BPM.
+ * You can head over to https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/ for more information on the tags we are using.
 
 Customer Value:
 
@@ -36,7 +55,7 @@ Technology:
 
 - You can connect to your Spotify profile through the app. This will allow the user to manipulate their profile and create/edit playlists they own. 
 
-- You can create playlists based on attributes. These attribute will be assigned to each song and will be used to sort and search for songs as well as find connections to other songs through related attributes. Once the songs are found, a playlist will be created reflecting the attributes you have chosen. 
+- You can create playlists based on attributes. These attributes will be assigned to each song and will be used to sort and search for songs as well as find connections to other songs through related attributes. Once the songs are found, a playlist will be created reflecting the attributes you have chosen. 
 
 - You can create playlists based on searching artists and the software will find music that the artist made as well as music made by related or similar artists. You can then change the attributes of the whole playlist with in the scope of the artists' genre. 
 
@@ -53,8 +72,10 @@ Technology:
 Team:
   -Skills? Has anyone on the team created or used the tools needed for the project already?
         Tucker: C++/Python/Javascript
+        Lane: C/C++/Python/Javascript/HTML/CSS
   -Roles? What are the roles of each team member? Will the roles change over the course of the semester?
-
+        Lane: Programmer
+        
 Project Management:
   -Schedule
   -Constraints
