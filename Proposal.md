@@ -25,7 +25,7 @@ Custom Consert aims to allow the the user a seemless and intuitive way to create
 
 3) Measures of Success
 
-Our main goal of this project it to make the process of creating a playlist on Spotify quickly with a simple and natural experience. If customers can create playlists that successfully reflect the the playlist they wanted in a matter of seconds we have successfully completed our main goal of this project.
+Our main goal of this project it to make the process of creating a playlist on Spotify quick with a simple and natural experience. If customers can create playlists that successfully reflect the the playlist they wanted in a matter of seconds we have successfully completed our main goal of this project.
 
 
 Technology:
