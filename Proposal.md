@@ -3,7 +3,7 @@ Team Name: Personal Playlist<br>
 Github Team Name: Personal Playlist<br>
 Team Members: Tucker Wheaton, Mathew Butera, Lane Henslee, Chris Mobley<br>
 
-<h1>Introduction:</h1>
+<h2>Introduction:</h2>
 
 Personal Playlist presents Custom Concert, which is a web-based python algorithm that uses Spotify's API to generate a curated playlist based on your listening history or inputted artists and songs. The website will allow users to adjust the search parameters based on what they're looking for, and the algorithm will learn and improve from user feedback.
 
@@ -31,7 +31,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 </ul>
  * You can head over to https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/ for more information on the tags we are using.<br>
 <br>
-<h1>Customer Value:</h1>
+<h2>Customer Value:</h2>
 
 1) Customer Need 
 
@@ -50,7 +50,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 - Our main goal of this project is to make the process of creating a playlist on Spotify quick with a simple and natural experience. If customers can create playlists that successfully reflect the the playlist they wanted in a matter of seconds we have successfully completed our main goal of this project.
 
 <br>
-<h1>Technology:</h1>
+<h2>Technology:</h2>
 
 1) What will our software do?
 
@@ -70,7 +70,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 
 - We have looked into using the AngularJS framework developed by Google and we may use this with tools such as Sublime Text and Webstorm. We can then use a mixture Jasmine and Karma for testing the code.
 <br>
-<h1>Team:</h1>
+<h2>Team:</h2>
 <h4>Skills? Has anyone on the team created or used the tools needed for the project already?</h4>
 <ul>
   <li>Tucker: C++/Python/Javascript</li>
@@ -81,7 +81,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
   <li>Lane: Programmer</li>
 </ul>
 <br>        
-<h1>Project Management:</h1> 
+<h2>Project Management:</h2> 
 <ul>
   <li>Schedule: </li>
   <li>Constraints: </li>
