@@ -15,19 +15,20 @@ We have researched the spotify community for similar programs. One that we want 
 
   -What are these tags we keep talking about?<br>
 We will be using Spotify's API to implement these unique features. These tags/features include:
-  -Duration: How long is the song?
-  -Key: What is the most proficient key/pitch of the song?
-  -Mode: Is the song in the major scale or the minor scale?
-  -Time Signature/Meter: How many beats are in each bar or measure?
-  -Acousticness: A scale from 0 to 1 of how acoustic the song is.
-  -Danceability: A scale from 0 to 1 of how likely people are to dance to the song.
-  -Energy: A scale from 0 to 1 of how much noise and speed is in the song (i.e. death metal has more energy than slow country)
-  -Instrumentalness: A scale from 0 to 1 predicting the ratio of instruments to vocals.
-  -Liveness: A scale from 0 to 1 predicting the likelyhood that the song was recorded live (.8 or higher means the song was
-   more than likely performed live)
-  -Speechiness: A scale from 0 to 1 that detects the presence of spoken words.
-  -Valence: A scale from 0 to 1 that detects the mood of the song (0 is sad/angry and 1 is happy/cheerful)
-  -Tempo: The overal tempo of the song in BPM.
+<ul>
+  <li>Duration: How long is the song?</li>
+  <li>Key: What is the most proficient key/pitch of the song?</li>
+  <li>Mode: Is the song in the major scale or the minor scale?</li>
+  <li>Time Signature/Meter: How many beats are in each bar or measure?</li>
+  <li>Acousticness: A scale from 0 to 1 of how acoustic the song is.</li>
+  <li>Danceability: A scale from 0 to 1 of how likely people are to dance to the song.</li>
+  <li>Energy: A scale from 0 to 1 of how much noise and speed is in the song (i.e. death metal has more energy than slow country)</li>
+  <li>Instrumentalness: A scale from 0 to 1 predicting the ratio of instruments to vocals.</li>
+  <li>Liveness: A scale from 0 to 1 predicting the likelyhood that the song was recorded live (.8 or higher means the song was more than likely performed live)</li>
+  <li>Speechiness: A scale from 0 to 1 that detects the presence of spoken words.
+  <li>Valence: A scale from 0 to 1 that detects the mood of the song (0 is sad/angry and 1 is happy/cheerful)</li>
+  <li>Tempo: The overal tempo of the song in BPM.</li>
+</ul>
  * You can head over to https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/ for more information on the tags we are using.
 
 Customer Value:
