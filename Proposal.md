@@ -44,10 +44,11 @@ Technology:
 
 2) What are the main components of the system? What will you use to build the system?
 
-- Our experience will be discussed more later in the proposal but I think it is important to highlight that we have never developed a web application so much of this is subject to change during our first sprint.
+- Our experience will be discussed more later in the proposal but I think it is important to highlight that we have never developed a web application so much of this is subject to change during our first sprint. I've written this part in a way to show the options we are considering to implement. 
 
 - We plan on having a client and server component to our application. The client side will be implemented using Javascript and CSS. We plan on using these languages and few API's to create a seemless user experience. It is important for our team to make this process quick and easy. The server side will mainly be written in Python but I can see us possibly using C++ because we are all very familiar with the language. The server side of this app will be used to connect users to their Spotify account and process search results and changes in attribute sliders. The back end will be doing all of the algorithmic processes to create the list of songs as well as implementing the changes with in the user's Spotify profile such as adding a playlist.
 
+- We have looked into using the AngularJS framework developed by Google and we may use this with tools such as Sublime Text and Webstorm. We can then use a mixture Jasmine and Karma for testing the code.
 
 Team:
   -Skills? Has anyone on the team created or used the tools needed for the project already?
