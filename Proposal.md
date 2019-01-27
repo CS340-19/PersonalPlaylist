@@ -42,7 +42,7 @@ Technology:
 
 - You can sort playlists that are being created based on any attributes you would like to be at the top of the playlist. 
 
-2) What are the main components of the system?
+2) What are the main components of the system? What will you use to build the system?
 
 - Our experience will be discussed more later in the proposal but I think it is important to highlight that we have never developed a web application so much of this is subject to change during our first sprint.
 
