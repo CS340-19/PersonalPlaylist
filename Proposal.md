@@ -7,13 +7,13 @@ Team Members: Tucker Wheaton, Mathew Butera, Lane Henslee, Chris Mobley
 
 Personal Playlist presents Custom Concert, which is a web-based python algorithm that uses Spotify's API to generate a curated playlist based on your listening history or inputted artists and songs. The website will allow users to adjust the search parameters based on what they're looking for, and the algorithm will learn and improve from user feedback.
 
-<h2>Motivation behind idea?</h2> <br>
+<h3>Motivation behind idea?</h3> 
 Our members in Personal Playlist have come together to eliminate the long process of making playlists. Custom Concert will help people in several aspects. Have you ever been invited to a concert where you don't know many of the songs? We want to help people familiarize themselves with new music based on what they listen too. Custom Concert will help prepare and excite people for concerts to new artists. We are going to add new music to personal playlists while helping new artists grow their group of listeners on spotify. A second feature in Custom Concert is the ability to generate a playlist with advanced settings that match song tags that the Spotify API provides. Lastly, we will allow the user to sort music by these same tags after the playlist is generated. We want to create a nice graphical user interface to let users have more power over their playlists than they ever have. What if you could sort and/or screen your playlist by song popularity or the likelyhood someone will dance to your music?
 
-<h3>What other markets is our product similar too? Do we have a novel ideas?</h3><br>
+<h3>What other markets is our product similar too? Do we have a novel ideas?</h3>
 We have researched the spotify community for similar programs. One that we want to model is called Dubolt. They have a simple interface that allows you to choose up to 5 artists and how many songs you want in the playlist. It generates a playlist with similar tags to your favorite music. We want to implement this feature and allow users to screen music with the Spotify API tags as well. This will curate the user's playlist to have more popular songs or more underground songs, more or less likelyhood to dance to the music, faster or slower tempo, and more. We want users to have full control of their playlists without the effort it takes to manually build a playlist.
 
-<h3>What are these tags we keep talking about?</h3><br>
+<h3>What are these tags we keep talking about?</h3>
 We will be using Spotify's API to implement these unique features. These tags/features include:
 <ul>
   <li>Duration: How long is the song?</li>
@@ -49,7 +49,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 
 - Our main goal of this project is to make the process of creating a playlist on Spotify quick with a simple and natural experience. If customers can create playlists that successfully reflect the the playlist they wanted in a matter of seconds we have successfully completed our main goal of this project.
 
-
+<br>
 <h1>Technology:</h1>
 
 1) What will our software do?
@@ -69,7 +69,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 - We plan on having a client and server component to our application. The client side will be implemented using Javascript and CSS. We plan on using these languages and few API's to create a seemless user experience. It is important for our team to make this process quick and easy. The server side will mainly be written in Python but I can see us possibly using C++ because we are all very familiar with the language. The server side of this app will be used to connect users to their Spotify account and process search results and changes in attribute sliders. The back end will be doing all of the algorithmic processes to create the list of songs as well as implementing the changes with in the user's Spotify profile such as adding a playlist.
 
 - We have looked into using the AngularJS framework developed by Google and we may use this with tools such as Sublime Text and Webstorm. We can then use a mixture Jasmine and Karma for testing the code.
-
+<br>
 <h1>Team:</h1>
 <h4>Skills? Has anyone on the team created or used the tools needed for the project already?</h4>
 <ul>
@@ -80,7 +80,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 <ul>  
   <li>Lane: Programmer</li>
 </ul>
-        
+<br>        
 <h1>Project Management:</h1> 
 <ul>
   <li>Schedule: </li>
