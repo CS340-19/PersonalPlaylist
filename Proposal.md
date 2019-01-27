@@ -52,6 +52,7 @@ Technology:
 
 Team:
   -Skills? Has anyone on the team created or used the tools needed for the project already?
+        Tucker: C++/Python/Javascript
   -Roles? What are the roles of each team member? Will the roles change over the course of the semester?
 
 Project Management:
