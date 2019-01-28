@@ -71,18 +71,20 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 - We have looked into using the AngularJS framework developed by Google and we may use this with tools such as Sublime Text and Webstorm. We can then use a mixture Jasmine and Karma for testing the code.
 <br>
 <h2>Team:</h2>
-<h4>Skills? Has anyone on the team created or used the tools needed for the project already?</h4>
-<ul>
-  <li>Tucker: C++/Python/Javascript</li>
-  <li>Lane: C/C++/Python/Javascript/HTML/CSS</li>
-  <li>Matthew: C/C++/Python/HTML/CSS/Photoshop</li>
-</ul>
-<h4>Roles? What are the roles of each team member? Will the roles change over the course of the semester?</h4>
-<ul>  
-  <li>Lane: Programmer</li>
-  <li>Matthew: Programmer/Graphic Design</li>
-  <li>Tucker: Programmer/Developer</li>
-</ul>
+It is important to note that unfortunately none of our team members have experience with web application development. Because of this, we expect a good portion of development will be spend on research to learn the skills required for this project. Luckily, all our members have some experience in Python which we intend to use for the playlist generator itself. In addition, we collectively have experience in JavaScript and CSS which we plan to use for the creating the client side of our application. As far as roles are concerned, they are fairly general at this point, however, we expect them to become more well defined and specific as we get further into the development of Custom Concert. 
+The current member roles and the languages our members have experience in are as follows:
+<h4>Matthew Butera</h4>
+- Role: Programmer & Graphic design
+- Skills: C/C++/Python/HTML/CSS/Photoshop
+<h4>Lane Henslee</h4>
+- Role: Programming & Development
+- Skills: C/C++/Python/Javascript/HTML/CSS
+<h4>Chris Mobley</h4>
+- Role: Programmer
+- Skills: C/C++/Python/Javascript
+<h4>Tucker Wheaton<h4>
+- Role: Programmer
+- Skills: C++/Python/Javascript
 <br>        
 <h2>Project Management:</h2> 
 <ul>
