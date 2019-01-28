@@ -81,6 +81,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 <ul>  
   <li>Lane: Programmer</li>
   <li>Matthew: Programmer/Graphic Design</li>
+  <li>Tucker: Programmer/Developer</li>
 </ul>
 <br>        
 <h2>Project Management:</h2> 
