@@ -75,18 +75,20 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 <ul>
   <li>Tucker: C++/Python/Javascript</li>
   <li>Lane: C/C++/Python/Javascript/HTML/CSS</li>
+  <li>Matthew: C/C++/Python/HTML/CSS/Photoshop</li>
 </ul>
 <h4>Roles? What are the roles of each team member? Will the roles change over the course of the semester?</h4>
 <ul>  
   <li>Lane: Programmer</li>
+  <li>Matthew: Programmer/Graphic Design</li>
 </ul>
 <br>        
 <h2>Project Management:</h2> 
 <ul>
-  <li>Schedule: </li>
-  <li>Constraints: </li>
-  <li>Resources: </li>
-  <li>Descoping: </li>
+  <li>Schedule: With proper planning and time management, we should be able to complete this project in the time alloted to us. Our group will meet three times a week during the class time, and reasonable weekly deadlines will be given to ensure progress. One of the difficulties of this project is our lack of knowledge in Web applications, so we'll have to give ourselves time to do research on the implementation of our idea. Our main focus for the initial stages of development will be the python algorithm, which will also take a few weeks to improve. After we've at least finished the algorithm, we'll start to work on the design of the website interface. </li>
+  <li>Constraints: Since we're using Spotify's API to access and play music, we won't have any constraints with copyright. Besides that, we also wont have any issues with security as the login for users is done securely through Spotify's database. </li>
+  <li>Resources: The only resources needed for this project will be a website hosting platform and the languages used for the algorithm and graphic user interface.</li>
+  <li>Descoping: The core of our project is the python algorithm that generates the personalized playlist, and if nothing else is completed, we can still have a final product that is helpful to users. With that as our focus, this should be completed by the project due date, but we're very hopeful to get the interface done with it.</li>
 <ul>
 
 
