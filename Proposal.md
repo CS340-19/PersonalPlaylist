@@ -72,6 +72,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 <br>
 <h2>Team:</h2>
 It is important to note that unfortunately none of our team members have experience with web application development. Because of this, we expect a good portion of development will be spend on research to learn the skills required for this project. Luckily, all our members have some experience in Python which we intend to use for the playlist generator itself. In addition, we collectively have experience in JavaScript and CSS which we plan to use for the creating the client side of our application. As far as roles are concerned, they are fairly general at this point, however, we expect them to become more well defined and specific as we get further into the development of Custom Concert. 
+
 The current member roles and the languages our members have experience in are as follows:
 <h4>Matthew Butera</h4>
 
