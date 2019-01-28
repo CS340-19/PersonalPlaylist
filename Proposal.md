@@ -75,16 +75,24 @@ It is important to note that unfortunately none of our team members have experie
 The current member roles and the languages our members have experience in are as follows:
 <h4>Matthew Butera</h4>
 - Role: Programmer & Graphic design
+
 - Skills: C/C++/Python/HTML/CSS/Photoshop
+
 <h4>Lane Henslee</h4>
 - Role: Programming & Development
+
 - Skills: C/C++/Python/Javascript/HTML/CSS
+
 <h4>Chris Mobley</h4>
 - Role: Programmer
+
 - Skills: C/C++/Python/Javascript
+
 <h4>Tucker Wheaton<h4>
 - Role: Programmer
+
 - Skills: C++/Python/Javascript
+
 <br>        
 <h2>Project Management:</h2> 
 <ul>
