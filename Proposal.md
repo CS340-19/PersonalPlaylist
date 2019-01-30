@@ -1,7 +1,7 @@
 <h1>Custom Concert</h1>
 Team Name: Personal Playlist<br>
 Github Team Name: Personal Playlist<br>
-Team Members: Tucker Wheaton, Mathew Butera, Lane Henslee, Chris Mobley<br>
+Team Members: Tucker Wheaton, Matthew Butera, Lane Henslee, Chris Mobley<br>
 
 <h2>Introduction:</h2>
 
@@ -43,7 +43,7 @@ We will be using Spotify's API to implement these unique features. These tags/fe
 
 2) Proposed Solution
 
-- Custom Consert aims to allow the the user a seemless and intuitive way to create playlists with the use of GUI. We plan on using methods such as sliders to adjust mood, tempo, popularity, and more. We would also like to create a playlist sort function with in the app to allow users to sort the playlist they are creating based on specific attributes. As a result the user should recieve a quality playist based on the attributes the user input and this should all be done a simple and quick manner. 
+- Custom Concert aims to allow the the user a seemless and intuitive way to create playlists with the use of GUI. We plan on using methods such as sliders to adjust mood, tempo, popularity, and more. We would also like to create a playlist sort function with in the app to allow users to sort the playlist they are creating based on specific attributes. As a result the user should recieve a quality playist based on the attributes the user input and this should all be done a simple and quick manner. 
 
 3) Measures of Success
 
