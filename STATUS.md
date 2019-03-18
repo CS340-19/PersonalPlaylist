@@ -6,12 +6,12 @@ Team Number: 6<br>
 
 <h2>Introduction: </h2> 
 
-<h3>Customer Value:</h3>
+<h2>Customer Value:</h2>
 
-<h4>Technology:</h4>
+<h2>Technology:</h2>
 
-<h5>Team:</h5>
+<h2>Team:</h2>
 
-<h6>Project Management:</h6>
+<h2>Project Management:</h2>
 
-<h7>Reflection:</h7>
+<h2>Reflection:</h2>
