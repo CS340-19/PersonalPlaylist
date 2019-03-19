@@ -11,7 +11,7 @@ Team Number: 6<br>
 <h2>Technology:</h2>
 
 <h2>Team:</h2>
-Our team decided to split up our current work and research into two seperate categories. Tucker Wheaton and Mathew Butera focused on creating the front end design for the web application and plan to continue researching ways to implement a solid backend. Chris Mobely and Lane Henslee focused their attention on creating a Python based algorithm that works with Spotify's API to create lists of curated playlists based on a user's Spotify account information. 
+<p> Our team decided to split up our current work and research into two seperate categories. We did this as we could see a clear divide in our research process. Half of our group researched the Spotify API and used Python to fiddle with some of its features while the other half researched ways to implement a web application. During our first iteration, Tucker Wheaton and Mathew Butera focused on creating the front end design for the web application and plan to continue researching ways to implement a solid back end. Chris Mobely and Lane Henslee focused their attention on creating a Python based algorithm that works with Spotify's API to create a curated list of songs based on a user's Spotify account information. </p> 
 
 <h2>Project Management:</h2>
 
