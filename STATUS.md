@@ -7,6 +7,7 @@ Team Number: 6<br>
 <h2>Introduction: </h2> 
 
 <h2>Customer Value:</h2>
+<p>Our main goal of this project is to make the process of creating a playlist on Spotify quick with a simple and natural experience. If customers can create playlists that successfully reflect the playlist they wanted in a matter of seconds, we have successfully completed our main goal of this project. Our goal and the value of the application to the customer has not changed since the creation of or proposal at the begginning of the semester.</p>
 
 <h2>Technology:</h2>
 
