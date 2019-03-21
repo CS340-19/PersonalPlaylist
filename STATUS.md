@@ -1,8 +1,8 @@
 <h1>Personal Playlist</h1>
-<h3>Team Name: Personal Playlist<br>
+<h2>Team Name: Personal Playlist<br>
 Github Team Name: Personal Playlist<br>
 Team Members: Tucker Wheaton, Matthew Butera, Lane Henslee, Chris Mobley<br>
-Team Number: 6<br></h3>
+Team Number: 6<br></h2>
 
 <h2>Introduction: </h2> 
 
