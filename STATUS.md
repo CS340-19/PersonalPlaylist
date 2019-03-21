@@ -1,8 +1,8 @@
 <h1>Personal Playlist</h1>
-<h2>Team Name: Personal Playlist<br>
+Team Name: Personal Playlist<br>
 Github Team Name: Personal Playlist<br>
 Team Members: Tucker Wheaton, Matthew Butera, Lane Henslee, Chris Mobley<br>
-Team Number: 6<br></h2>
+Team Number: 6<br>
 
 <h2>Introduction: </h2> 
 
@@ -18,5 +18,5 @@ As we get closer to implementing the backend of our web application, our team pl
 </p> 
 
 <h2>Project Management:</h2>
-
+During our first iteration, we spent most of our time understanding Spotify's API and how to manipulate a user's metadata. 
 <h2>Reflection:</h2>
