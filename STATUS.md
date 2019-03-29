@@ -11,6 +11,16 @@ Team Number: 6<br>
 
 <h2>Technology:</h2>
 
+Several different technologies were used to develop our playlist creator up to this point. The webpage itself is being created using a combination of html, css, and javascript. In the future we plan to implement angularJS to bind the slider positions to specific values to be used in our python playlist creator.
+
+The current webpage layout (as seen below) will allow users to sign in to their spotify accounts through our webpage, search for songs, and create new playlists based upon the track descriptors they set. Several sliders were added on the left hand side to let users adjust several track descriptors to personalize the generated playlists. In the center of the page we plan to display the album covers of the playlist's tracks along with the trackname. 
+
+<img src="https://github.com/CS340-19/PersonalPlaylist/blob/master/ExampleUI.png">
+
+The backend of our project with be run by the Python library Spotipy. This library lets us to use the Spotify API through Python. It allows us to authenticate Spotify user credentials, access track data, and generate playlists based on track descriptors and similar tracks. This Python algorithm will take the track descriptor values set by the user and generate new playlists.
+
+Currently we have designs for the webpage itself as well as the playlist generator itself. Moving forward our goal is to combine these two so that the Python algorithm will be able to read the sliders to generate playlists based on their values as well as to display the generated playlist on the webpage.
+
 <h2>Team:</h2>
 <p> We decided to split up our current work and research into two seperate categories. We did this as we could see a clear divide in our research process. Half of our group researched the Spotify API and used Python to fiddle with some of its features while the other half researched ways to implement a web application. During our first iteration, Tucker Wheaton and Mathew Butera focused on creating the front end design for the web application and plan to continue researching ways to implement a solid back end. Chris Mobely and Lane Henslee focused their attention on creating a Python based algorithm that works with Spotify's API to create a curated list of songs based on a user's Spotify account information.
 
