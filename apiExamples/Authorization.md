@@ -10,6 +10,13 @@ export SPOTIPY_REDIRECT_URI='http://google.com/'
 ```
   SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET are found in my dashboard for our webserver holding "Custom Concert" https://developer.spotify.com/dashboard/applications/a07dc742b8de49b0b470138f9a036e38.<br>
   2. To search and screen music on a playlist you use:
-  ```
-  python3 read_a_playlist.py [uri] [above or below] [tag value: 0-1] [mode: i.e. 'danceability]
-  ```
+```
+python3 read_a_playlist.py [uri] [above or below] [mode value: 0-1] [mode: i.e. 'danceability']
+```
+  This example will read the rap caviar playlist find songs above .8 dancibility:
+```
+python3 read_a_playlist.py spotify:user:spotify:playlist:37i9dQZF1DX0XUsuxWHRQd above .8 danceability
+```
+  3. To search and screen music from an entire artist you use:
+```
+python3 showArtist.py [artist uri] [above or below] [mode value: 0-1] [mode: i.e. 'danceability']
