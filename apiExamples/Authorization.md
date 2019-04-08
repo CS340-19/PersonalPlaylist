@@ -10,7 +10,7 @@
   export SPOTIPY_REDIRECT_URI='http://google.com/'
     ```
   </li>
-    
+</ul>
     Some basic Git commands are:
 ```
 git status
