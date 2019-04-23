@@ -36,4 +36,4 @@ In the next iteration, our team plans to setup a login system to allow user's to
 <h2>Reflection:</h2>
 <p> Each of the group members has been committed to learning about each of their assigned features of the final project, and we have been able to distribute the work fairly well. However, our group has struggled with time management, as no definitive checkpoints were set beyond the research phase, so it was unclear when each of the features of the website should be finished. Instead of approaching the project with small milestones to ensure each feature is implemented over time, we have been attempting to complete the final project all at once. 
   
-In the final stages of development, we plan to divide each issue among our group members and assign a stricter due date that will ensure that we spend less of our time trying to learning everything at once and more time on each smaller issue. </p>
+In the final stages of development, we plan to divide each issue among our group members and assign a stricter due date that will ensure that we spend less of our time trying to learning everything at once and more time on each smaller issue.</p>
