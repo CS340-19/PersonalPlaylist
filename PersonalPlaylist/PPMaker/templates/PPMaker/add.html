@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<body class="w3-black w3-content w3-center w3-padding-64" style="max-width:1600px">
+    <img src="static/images/PersonalPlaylistLogo.png" style="width: 30%"><br><br><br>
+    <form action="" method="post">
+        {% csrf_token %}
+        <b>Enter Your Playlist Name</b><br><br>
+        <input type="text" class="movetext" value="{{username}}'s Personal Playlist" name="playlist_name" style="width: 25%"><br><br>
+        <input type="submit" class="w3-bar-item w3-button w3-xlarge" value="Create">
+    </form>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<title>Personal Playlist</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="http://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js" ></script>
+</head>
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+.slider {
+    -webkit-appearance: none;
+    width: 95%;
+    height: 7px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #78fa41;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 125px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.movetext
+{
+    position: relative;
+    left: 50px;
+}
+</style>
+
+<body class="w3-black w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-left w3-text-white w3-collapse w3-top w3-center"
+     style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+    <img src="static/images/Pluslogo.png" style="width:30%">
+    <h4 class="w3-padding-32 w3-center"><b>Personal<br>Playlist</b></h4>
+
+    {% if logged_in %}
+        Signed in as<br>
+        {{ username }}<br>
+        <br>
+    {% endif %}
+
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+    {% if logged_in %}
+        <a href="logout" onclick="w3_close()" class="w3-bar-item w3-button">LOG OUT</a>
+        <a href="add" onclick="w3_close()" class="w3-bar-item w3-button">ADD PLAYLIST</a>
+    {% else %}
+        <a href="login" onclick="w3_close()" class="w3-bar-item w3-button">SIGN IN</a>
+    {% endif %}
+    <br>
+
+    <form action="" method="post">
+        {% csrf_token %}
+        Genre<br>
+        <select name="genre">
+            {% for key,val in genres.items %}
+                <option value="{{key}}" {% if attributes.genre == key %}selected="selected"{% endif %}>{{val}}</option>
+            {% endfor %}
+        </select><br><br>
+        <div class="slidecontainer">
+            Acousticness<br>
+            <input type="range" name="accousticness" min="0.0" max="1.0" step="0.01" value="{{attributes.accousticness}}" class="slider">
+            Danceability<br>
+            <input type="range" name="danceability" min="0.0" max="1.0" step="0.01" value="{{attributes.danceability}}" class="slider">
+            Energy<br>
+            <input type="range" name="energy" min="0.0" max="1.0" step="0.01" value="{{attributes.energy}}" class="slider">
+            Instrumentalness<br>
+            <input type="range" name="instrumentalness" min="0.0" max="1.0" step="0.01" value="{{attributes.instrumentalness}}" class="slider">
+            Liveness<br>
+            <input type="range" name="liveness" min="0.0" max="1.0" step="0.01" value="{{attributes.liveness}}" class="slider">
+            Loudness<br>
+            <input type="range" name="loudness" min="0.0" max="1.0" step="0.01" value="{{attributes.loudness}}" class="slider">
+            Speechiness<br>
+            <input type="range" name="speechiness" min="-60.0" max="0.0" step="0.6" value="{{attributes.speechiness}}" class="slider">
+            Valence<br>
+            <input type="range" name="valence" min="0.0" max="1.0" step="0.01" value="{{attributes.valence}}" class="slider">
+            Tempo<br>
+            <input type="range" name="tempo" min="0.0" max="250.0" step="2.5" value="{{attributes.tempo}}" class="slider">
+        </div>
+        <br>
+        <input type="submit" class="w3-bar-item w3-button" value="Generate">
+    </form>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding">PERSONAL PLAYLIST</span>
+    <input type="text" class="movetext" placeholder="Search..." style="width: 74%">
+    <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+     title="close side menu" id="myOverlay">
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+
+    <!-- Photo grid -->
+    <div style="position: relative; top: 100px; left: 55px;">
+        {% if tracks %}
+        {% for row in tracks %}
+        <div class="w3-row" align="center">
+            {% for track in row %}
+            <div class="w3-third w3-container">
+                <img src={{track.album.images.0.url}} style="width:100%;" onclick="onClick(this)"
+                     alt="<font size=+2><b>{{track.name}}</b></font><br>{{track.artists.0.name}}"><br>
+                <div class="w3-padding-16">{{ track.name }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+
+    <!-- Pagination -->
+    <div style="position: relative; top: 60px; left: 75px;">
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span class="w3-button w3-black w3-xlarge w3-display-topright"></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption"></p>
+        </div>
+    </div>
+    <br>
+
+    <!-- About section -->
+    <div style="position: relative; left: 75px;">
+        <div class="w3-container w3-black w3-center w3-text-light-grey w3-padding-32" id="about">
+            <br><br><br>
+            <img src="static/images/PersonalPlaylistLogo.png" alt="Me">
+            <h2>About</h2><br>
+            <div class="w3-content w3-justify" style="max-width:600px">
+                <h4>Personal Playlist</h4>
+                <p>Personal Playlist is a web-based python algorithm that uses Spotify's API to generate a curated playlist
+                    based on
+                    your listening history or inputted artists and songs. Personal Playlist allows users to adjust the
+                    search parameters based on what they're looking for,
+                    and the algorithm will learn and improve from user feedback.
+                </p>
+                <p>mail: twheaton@vols.utk.edu</p>
+                <hr class="w3-opacity">
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
